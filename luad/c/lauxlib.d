@@ -119,7 +119,7 @@ extern (C) {
 	int  function(lua_State *L, const(char)* s) luaL_loadstring;
 
 	//C	 LUALIB_API lua_State *(luaL_newstate) (void);
-	lua_State* luaL_newstate();
+	lua_State* function() luaL_newstate;
 
 
 	//C	 LUALIB_API const char *(luaL_gsub) (lua_State *L, const char *s, const char *p,
